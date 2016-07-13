@@ -389,7 +389,7 @@
 				checkOverflow(config);
 			}
 			copyConfig(this, config);
-			this._d = new Date(+config._d);
+			this._d = new Date((+config._d));
 		};
 		Duration = function(duration) {
 			var days, hours, milliseconds, minutes, months, normalizedInput, quarters, seconds, weeks, years;
@@ -1316,10 +1316,10 @@
 				config._d = new Date();
 			} else {
 				if(isDate(input)) {
-					config._d = new Date(+input);
+					config._d = new Date((+input));
 				} else {
 					if((matched = aspNetJsonRegex.exec(input)) !== null) {
-						config._d = new Date(+matched[1]);
+						config._d = new Date((+matched[1]));
 					} else {
 						if(typeof input === "string") {
 							makeDateFromString(config);
@@ -2178,7 +2178,7 @@
 			},
 			toDate: function() {
 				if(this._offset) {
-					return new Date(+this);
+					return new Date((+this));
 				} else {
 					return this._d;
 				}

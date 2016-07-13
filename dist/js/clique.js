@@ -1,7 +1,7 @@
 /*!
- *  CliqueUI - v1.0.4 - 2015-10-14
+ *  CliqueUI - v1.0.4 - 2016-07-12
  *  http://ui.cliquestudios.com
- *  Copyright (c) 2015 Clique Studios;
+ *  Copyright (c) 2016 Clique Studios;
  */
 
 (function(core) {

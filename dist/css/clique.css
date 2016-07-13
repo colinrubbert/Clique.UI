@@ -6200,7 +6200,6 @@ a.thumbnail:focus {
 	position: relative;
 	width: 600px;
 	max-width: 100%;
-	max-width: -webkit-calc(100% - 20px);
 	max-width: calc(100% - 20px);
 	margin: 50px auto;
 	padding: 20px;
@@ -6262,7 +6261,6 @@ a.thumbnail:focus {
 
 .modal-dialog-lightbox {
 	max-width: 95%;
-	max-width: -webkit-calc(100% - 30px);
 	max-width: calc(100% - 30px);
 	min-height: 200px;
 	margin: 15px auto;
@@ -6445,7 +6443,6 @@ a.thumbnail:focus {
 .text-break {
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
 	hyphens: auto;
 	-ms-hyphens: auto;
 }

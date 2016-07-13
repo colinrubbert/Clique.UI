@@ -131,7 +131,7 @@
 			return $this.trigger("showitem.clique.lightbox", [data]);
 		},
 		fitSize: function() {
-			var $this, content, data, dh, dpad, dpadBot, dpadTop, duration, h, maxheight, maxwidth, pad, t, tmp, w;
+			var $this, content, data, dh, dpad, dpadBot, dpadTop, duration, h, maxheight, maxwidth, meta, pad, t, tmp, w;
 			$this = this;
 			data = this.data;
 			pad = this.modal.dialog.outerWidth() - this.modal.dialog.width();

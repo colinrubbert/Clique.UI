@@ -98,7 +98,6 @@
 	position: relative;
 	width: 600px;
 	max-width: 100%;
-	max-width: -webkit-calc(100% - 20px);
 	max-width: calc(100% - 20px);
 	margin: 50px auto;
 	padding: 20px;
@@ -160,7 +159,6 @@
 
 .modal-dialog-lightbox {
 	max-width: 95%;
-	max-width: -webkit-calc(100% - 30px);
 	max-width: calc(100% - 30px);
 	min-height: 200px;
 	margin: 15px auto;
